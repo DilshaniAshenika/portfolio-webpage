@@ -1,0 +1,129 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-family: 'Arial, sans-serif';
+}
+
+body {
+    background-color:rgb(6, 4, 17);
+    font-family: var(--primary-color);
+    margin: 5;
+    padding: 5;
+    box-sizing: content-box;
+}
+.odd{
+    background-color: rgb(24, 4, 37);
+    color:rgb(104, 228, 93);
+    text-align: center;
+}
+
+.off{
+    color: brown ;
+
+}
+.even{
+   
+   color: white;
+    text-align: center;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+.a{
+    color: green;
+}
+
+.b{
+    color: rgb(92, 41, 211);
+}
+
+.c{
+    color: yellow;
+}
+
+.d{
+    color: rgb(38, 199, 79);
+}
+
+.e{
+    color:darkred
+}
+.f{
+    color:lightseagreen
+}
+.g{
+    color:rgb(86, 31, 236)
+}
+
+.h{
+    color: cadetblue;
+}
+.i{
+    color:rgb(231, 205, 54)
+}
+
+.l{
+    color: blue;
+}
+.m{
+    color: darkgrey;
+}
+
+.n{
+    color: pink;
+}
+.o{
+    color: white;
+}
+.seven {
+    color: #6534be; /* Changes text color to green */
+}
+
+/* Additional styling for buttons */
+button {
+    background-color: #3498db; /* Blue background */
+    color:white; /* White text */
+    border: none; /* Remove default border */
+    padding: 5px 5px; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    font-size: large;
+    font-weight:bold;
+    font-style: normal;
+    font-weight: 900;
+    font-variant-ligatures: no-common-ligatures;
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+section {
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 1rem;
+    }
+}
